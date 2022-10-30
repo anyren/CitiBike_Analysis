@@ -9,7 +9,7 @@ I chose to limit my data to the datasets for trips starting in New Jersey and fo
 
 I used Python to loop through all the files downloaded and created a single dataframe containing all the trip data. I calculated the length of each trip in minutes and removed any trips less than a minute. I also added columns for day of week and month to make analysis in Tableau easier. I also created a dataframe with a row for each unique station, the start and end trip counts as well as total counts and the coordinates of the station. I exported both dataframes to csv files to use in Tableau.
 
-All the data cleaning and exploration code can be found in the [data_cleaning_exploration](data_cleaning_exploration.ipynb)  Jupyter Notebook. Source data can be found in the `data/source` directory, while process data files are in `data`.
+All the data cleaning and exploration code can be found in the [data_cleaning_exploration](data_cleaning_exploration.ipynb)  Jupyter Notebook. Source data can be found in the `data/source` directory, while process data files are in `data`. Note, the `trips_2022.csv.zip` file needs to be uncompressed before using in Tableau.
 
 ## Tableau
 The Tableau visualizations, dashboard, maps, and story can be found on [Tableau Public](https://public.tableau.com/views/CitiBikeAnalysis_16667286992680/FinalPresentation?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
